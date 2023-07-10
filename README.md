@@ -24,12 +24,13 @@ npm install
 2. Após isso, execute o servidor com:
 npm run start ou npm run start:dev
 3. Abra no seu navegador para visualizar o Swagger e sua documentação da api back-end:
-Abra http://localhost:3030/api para visualizá-lo em seu navegador.
+utilize o navegador de sua preferencia: http://localhost:3030/api.
 
 ## Dependencias utilizadas
 -  Node.js
 -  Nest framework
 -  Typescript
+-  Axios
 
 ## front-end
 1. Dentro da pasta `frontend`, instale as dependências com:
@@ -37,8 +38,10 @@ npm install
 2. Após isso, execute o servidor com:
 npm start
 3. Abra no seu navegador para visualizar o front-end:
-Abra http://localhost:3000 para visualizá-lo em seu navegador.
+utilize o navegador de sua preferencia: http://localhost:3000.
 
 ## Dependencias utilizadas
 -  React
+-  Styled-Components
+-  Axios
 -  Javascript
