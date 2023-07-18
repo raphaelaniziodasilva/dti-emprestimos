@@ -22,7 +22,7 @@ As duas aplicação precisa estar executada no seu próprio servidor!!
 1. Dentro da pasta `backend`, instale as dependências com:
 npm install
 2. Após isso, execute o servidor com:
-npm run start ou npm run start:dev
+npm run start:dev
 3. Abra no seu navegador para visualizar o Swagger e sua documentação da api back-end:
 utilize o navegador de sua preferencia: http://localhost:3030/api.
 
