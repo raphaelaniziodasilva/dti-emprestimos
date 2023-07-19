@@ -1,4 +1,4 @@
-# dti-emprestimos-challenge
+ # dti-emprestimos-challenge
 
 ## Descrição
 O projeto foi um desafio proposto pela dti Digital.
@@ -19,7 +19,7 @@ Clone o repositório do projeto: `https://github.com/raphaelaniziodasilva/dti-em
 As duas aplicação precisa estar executada no seu próprio servidor!!
 
 ## back-end
-1. Dentro da pasta `backend`, instale as dependências com:
+1. Abra o arquivo `backend` em pasta separada do `frontend`, instale as dependências com:
 npm install
 2. Após isso, execute o servidor com:
 npm run start:dev
@@ -33,7 +33,7 @@ utilize o navegador de sua preferencia: http://localhost:3030/api.
 -  Axios
 
 ## front-end
-1. Dentro da pasta `frontend`, instale as dependências com:
+1. Abra o arquivo `frontend` em pasta separada do `backend`, instale as dependências com:
 npm install
 2. Após isso, execute o servidor com:
 npm start
