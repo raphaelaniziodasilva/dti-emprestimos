@@ -30,6 +30,9 @@ let EmprestimoService = class EmprestimoService {
                 const emprestimo = await this.SolicitaEmprestimo(valorEemprestimo, valorDivida);
                 return { cnpjValido, emprestimo };
             }
+            else {
+                return new common_1.BadRequestException('Digite PF ou PJ');
+            }
         }
         catch (error) {
             throw new Error(error);

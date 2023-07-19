@@ -29,6 +29,8 @@ export class EmprestimoService {
           valorDivida,
         );
         return { cnpjValido, emprestimo };
+      } else {
+        return new BadRequestException('Digite PF ou PJ')
       }
     } catch (error: any) {
       throw new Error(error);
